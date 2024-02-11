@@ -10,8 +10,8 @@ This project presents an end-to-end deployment of a Random Forest multi-class cl
 ##  Project Overview
 The primary goal of this project is to train and deploy a Random Forest multi-class classifier model using AWS SageMaker. The model predicts the price range of mobile phones. The implementation is based on Krish Naik’s tutorial "End-to-end Machine Learning Project Implementation Using AWS SageMaker". 
 ##  Tools
-Development Environment: Visual Studio Code, Anaconda
-AWS Services: SageMaker, S3, IAM
+* Development Environment: Visual Studio Code, Anaconda
+* AWS Services: SageMaker, S3, IAM
 ## Project Structure
 sagemaker-custom-script.ipynb: Jupyter Notebook containing the project implementation.
 script.py: Python script used for model training.
