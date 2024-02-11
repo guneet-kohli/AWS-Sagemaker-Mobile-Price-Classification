@@ -13,14 +13,14 @@ The primary goal of this project is to train and deploy a Random Forest multi-cl
 * Development Environment: Visual Studio Code, Anaconda
 * AWS Services: SageMaker, S3, IAM
 ## Project Structure
-sagemaker-custom-script.ipynb: Jupyter Notebook containing the project implementation.
-script.py: Python script used for model training.
-requirements.txt: File listing the required packages for the project.
-mob_price_classification_train.csv: Dataset used for training the model.
-train-V-1.csv and test-V-1.csv: Train and test data files.
+* sagemaker-custom-script.ipynb: Jupyter Notebook containing the project implementation.
+* script.py: Python script used for model training.
+* requirements.txt: File listing the required packages for the project.
+* mob_price_classification_train.csv: Dataset used for training the model.
+* train-V-1.csv and test-V-1.csv: Train and test data files.
 ## Installation
 To install the necessary packages, run the following command:
-pip install -r requirements.txt
+* pip install -r requirements.txt
 ## Usage
 Follow the steps outlined in the sagemaker-custom-script.ipynb notebook for a detailed walkthrough of the project. This includes setting up the AWS environment, training the Random Forest model, and deploying it on SageMaker.
 
